@@ -12,12 +12,12 @@
   "per_replica_batch": 1,
   "gradient_accumulation_steps": 16,
 
-  "warmup_steps": 6,
-  "anneal_steps": 57,
+  "warmup_steps": 1,
+  "anneal_steps": 4,
   "lr": 5e-5,
   "end_lr": 1e-5,
   "weight_decay": 0.1,
-  "total_steps": 63,
+  "total_steps": 5,
 
   "tpu_size": 8,
 
@@ -32,8 +32,8 @@
 
   "val_batches": 0,
   "val_every": 80,
-  "ckpt_every": 20,
-  "keep_every": 20,
+  "ckpt_every": 3,
+  "keep_every": 3,
 
   "name": "example_model",
   "wandb_project": "mesh-transformer-jax",
