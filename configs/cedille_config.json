@@ -21,10 +21,10 @@
 
   "tpu_size": 8,
 
-  "bucket": "your-bucket",
-  "model_dir": "finetune_dir",
+  "bucket": "cedille",
+  "model_dir": "cedille_finetune_dir",
 
-  "train_set": "example.train.index",
+  "train_set": "cedille.train.index",
   "val_set": {},
 
   "eval_harness_tasks": [
@@ -35,7 +35,7 @@
   "ckpt_every": 3,
   "keep_every": 3,
 
-  "name": "example_model",
+  "name": "cedille_model",
   "wandb_project": "mesh-transformer-jax",
   "comment": ""
 }
